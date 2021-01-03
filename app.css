@@ -1,0 +1,26 @@
+body{
+    background:#323975; 
+    color: #fff;
+   display: flex;
+    flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Muli', sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            margin: 0;
+            text-align: center;
+
+} 
+.fa-snowflake{ 
+    animation: fall 10s linear forwards;
+    color: #fff; 
+    position: absolute;
+    top:-20px ;
+
+} 
+@keyframes fall {
+    to{
+        transform: translateY(105vh);
+    }
+}
